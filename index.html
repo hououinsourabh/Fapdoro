@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fapdoro</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+    <script src="main.js"></script>
+</head>
+<body onload="template()">
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h2 align="center">THE LEGENDARY TECHNIQUE</h2>
+        <p class="side_text">
+            YO ITS JUST A POMODORO BUT INSTEAD OF TAKING BREAKS BETWEEN YOUR SESSIONS YOU FAP TO
+            INCREASE YOUR PRODUCTIVITY. IT IS SCIENTIFICALLY PROVEN THAT FAPPING IS A GREAT SOURCE
+            OF DOPAMINE AND AFTER YOUR WORK SESSION IT WILL ACT AS A REWARD SYSTEM FOR YOUR BRAIN. YOU CAN ACHIEVE MAXIMUM 
+            PRODUCTIVITY WITH THIS SYSTEM AND IT IS SCIENTIFICALLY PROVEN, EVEN SIR ISSAC NEWTON 
+            USED IT, THATS WHY HE DIED A VIRGIN.
+        </p>
+
+        <p class="side_text">
+            LETS BOOST OUR PRODUCTIVITY TO MAXIMUM LEVEL AND ACHIEVE OUR GOALS.
+            <b><i>#SIGMA_MALE_GRINDSET</i></b>
+        </p>
+
+        <p class="side_text">
+            NOTE : THIS IS NOT A JOKE.
+        </p>
+
+        <h3 align="center">WORK TIME</h3>
+
+        <div align="center" class="slidecontainer">
+            <input type="range" min="25" max="120" value="25" class="slider" id="myRange1" step="5">
+            <p class="s_val"><span id="work"></span></p>
+        </div>
+
+        <h3 align="center">FAP TIME</h3>
+        
+        <div align="center" class="slidecontainer">
+            <input type="range" min="5" max="25" value="5" class="slider" id="myRange2" step="5">
+            <p class="s_val"><span id="break"></span></p>
+        </div>
+
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <button onclick="openNav()" id="yo" align="right"><b>YO HERE</b></button>
+
+    <div id="main">
+
+        <h1 align="center"><img id="logo" width="25%" height="25%" src="logo.jpg"></h1>
+
+        <div align="center" class="timer">
+            <h4 id="minutes">25</h4>
+            <h4 id="semicolon">:</h4>
+            <h4 id="seconds">00</h4>
+        </div>
+
+        <div id="message" align="center">
+            <h4 id="whatTime">Work Time</h4>
+        </div>
+
+        <div align="center" id="controllers">
+            <button onclick="startTimer()" id="start">
+                START
+            </button>
+
+            <button onclick="resetTimer()" id="reset">
+                STOP
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="slider.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> -->
+</body>
+</html>
