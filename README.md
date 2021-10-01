@@ -1,7 +1,8 @@
 # FapDoro
 
-YO ITS JUST A POMODORO BUT INSTEAD OF TAKING BREAKS BETWEEN YOUR SESSIONS YOU FAP TO
-INCREASE YOUR PRODUCTIVITY. IT IS SCIENTIFICALLY PROVEN THAT FAPPING IS A GREAT SOURCE
-OF DOPAMINE AND AFTER YOUR WORK SESSION IT WILL ACT AS A REWARD SYSTEM FOR YOUR BRAIN. YOU CAN ACHIEVE MAXIMUM 
-PRODUCTIVITY WITH THIS SYSTEM AND IT IS SCIENTIFICALLY PROVEN, EVEN SIR ISSAC NEWTON 
-USED IT, THATS WHY HE DIED A VIRGIN.
+Visit Here : https://hououinsourabh.github.io/Fapdoro/
+
+Fapdoro is a pomodoro technique that increases your productivity by fapping between your work time this is very usefull for students and even Sir Issac Newton used this technique thats why he died a 
+virgin.
+
+NOTE: This is not a joke.
